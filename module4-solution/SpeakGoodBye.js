@@ -19,6 +19,7 @@ var speakWord = "Good Bye";
 // byeSpeaker object instead of being a standalone function.
 // See Lecture 52, part 2
 byeSpeaker.speak = function (name) {
+  
   //byeSpeaker.name = name;  if i  do this like yaakov, I have to put below before +name "byeSpeaker.name" so decided to not but same thing!
   console.log(speakWord + " " + name); //byeSpeaker.name if I uncomment above
 }
